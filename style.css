@@ -65,7 +65,7 @@ h1 {
     text-align: center;
     margin-top: 2rem;
 }
-/*
+
 .item_input{
     background: #ddf9fc;
     outline: none;
@@ -77,7 +77,7 @@ h1 {
     font-size: 20px;
     width: 300px;
 }
-*/
+
 
 
 .remove {
@@ -96,7 +96,7 @@ h1 {
     text-transform: uppercase;
     text-decoration: none;
     background: #EA4335;
-    padding: 20px;
+    padding: 12px;
     border-radius: 5px;
     display: inline-block;
     text-align: center;
@@ -104,8 +104,16 @@ h1 {
     font-size: 20px;
     transition: all 0.4s ease 0s;
     height: 55px;
-    width: 150px;
+    width: 280px;
     font-weight: 700;
-    font-size: 20px;
-    width: 300px;
+}
+
+.remove_btn:hover {
+    background: #ff0123;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+
 }
